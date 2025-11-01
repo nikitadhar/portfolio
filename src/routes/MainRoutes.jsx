@@ -8,15 +8,19 @@ import HeroSection from '../component/HeroSection';
 import About from '../component/About';
 import Projects from '../component/Projects';
 import Contacts from '../component/Contacts';
+import Skills from '../component/Skills';
+import Education from '../component/Education';
 
 export default function MainRoutes() {
   return (
     <div className='max-w-4xl w-full mx-auto px-2 shadow-xl h-full'>
     <Header/>
-    <HeroSection/>
+    {/* <HeroSection/> */}
     <About/>
+    <Skills/>
     <Projects/>
-    <Contacts/> 
+    {/* <Contacts/>  */}
+    <Education/>
     </div>
       // <Routes>
       //   <Route path="/" element={<Portfolio />}>

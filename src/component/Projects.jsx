@@ -4,12 +4,12 @@ import React from 'react'
 export default function Projects() {
     const projects = [
         {
-            "name": "Project 1",
+            "name": "Notes Sharing Platform",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
             "link": ""
         },
         {
-            "name": "Project 1",
+            "name": "Start city",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
             "link": ""
         },
