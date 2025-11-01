@@ -1,3 +1,18 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer base {
+  :root {
+    --font-poppins: "Poppins", sans-serif;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
